@@ -28,3 +28,5 @@ crashlytics-build.properties
 fabric.properties
 
 node_modules
+
+dist/index.js
