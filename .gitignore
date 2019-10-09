@@ -29,4 +29,4 @@ fabric.properties
 
 node_modules
 
-.dist/index.js
+dist/index.js
