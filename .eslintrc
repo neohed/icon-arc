@@ -1,0 +1,59 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "rules": {
+    "max-len": [
+      1,
+      160,
+      2,
+      {
+        "ignoreComments": true
+      }
+    ],
+    "react/prop-types": [
+      2
+    ],
+    "no-console": "warn",
+    "strict": [
+      "error",
+      "global"
+    ],
+    "curly": "warn",
+    "no-unused-vars": "warn"
+  },
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      // Regex for Component Factory to use,
+      // default to "createReactClass"
+      "pragma": "React",
+      // Pragma to use, default to "React"
+      "version": "16.7.0-alpha",
+      // React version, default to the latest React stable release
+      "flowVersion": "0.53"
+      // Flow version
+    },
+    "propWrapperFunctions": [
+      "forbidExtraProps"
+    ]
+    // The names of any functions used to wrap the
+    // propTypes object, e.g. `forbidExtraProps`.
+    // If this isn't set, any propTypes wrapped in
+    // a function will be skipped.
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  }
+}

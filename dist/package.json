@@ -1,0 +1,28 @@
+{
+  "name": "icon-arc",
+  "version": "1.0.0",
+  "description": "React component to arrange icons on an arc.",
+  "keywords": [
+    "javascript",
+    "geometry",
+    "react",
+    "ui"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neohed/icon-arc.git"
+  },
+  "author": "neohed",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.10.2"
+  },
+  "bugs": {
+    "url": "https://github.com/neohed/icon-arc/issues"
+  },
+  "homepage": "https://github.com/neohed/icon-arc#readme",
+  "scripts": {
+    "test": "test"
+  }
+}
