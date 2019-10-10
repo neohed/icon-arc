@@ -10,7 +10,7 @@ React component to arrange icons on an arc.
 
 #### examples
 
-For full example including importing icons look through the ```demo/``` source.
+For full example including importing icons look through the ```demo/``` source folder.
 
 ```javascript
 <IconArc
