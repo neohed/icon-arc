@@ -31,7 +31,7 @@ const IconArc = ({
         ...style
     };
     const iconSegment = 2 * Math.PI * arc / 180 / N;
-    const halfIconWidth = iconWidth / 2;
+    const halfIconWidth = Math.floor(iconWidth / 2);
     const R = radius + iconRadius;
     let segment = arcStart;
 
